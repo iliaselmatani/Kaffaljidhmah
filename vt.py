@@ -28,7 +28,6 @@ host = "www.virustotal.com"
 selector = "https://www.virustotal.com/vtapi/v2/file/scan"
 fields = [("apikey", "f054d3cc98b899225eef226dacc37036b846907e6206ae938ceac440195f916e")]
 urlScan = "https://www.virustotal.com/vtapi/v2/file/report"
-urlRescan = "https://www.virustotal.com/vtapi/v2/file/rescan"
 urlReport = "https://www.virustotal.com/vtapi/v2/file/report"
 
 def main():
